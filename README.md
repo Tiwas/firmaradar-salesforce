@@ -13,7 +13,7 @@ Firmaradar-side feltvelger.
 
 > **BETA — et proof of concept fra vår side.** Firmaradar er en
 > **API/MCP-first-plattform**, og kjernen vår er å produsere berikede norske
-> selskaps-data. Denne connectoren beviser at systemet vårt faktisk leverer dataene
+> selskapsdata. Denne connectoren beviser at systemet vårt faktisk leverer dataene
 > Salesforce trenger — men den **faktiske implementeringen** (hvilke felt, Flows og
 > arbeidsflyter som passer din virksomhet) må valideres per kunde og per extension.
 >
