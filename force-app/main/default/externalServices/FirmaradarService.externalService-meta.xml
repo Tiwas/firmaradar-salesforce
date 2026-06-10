@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExternalServiceRegistration xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>FirmaradarService</label>
+    <namedCredential>Firmaradar</namedCredential>
+    <operations>
+        <name>getCompany</name>
+        <name>getRiskScore</name>
+        <name>checkAml</name>
+    </operations>
+    <schemaType>Swagger</schemaType>
+</ExternalServiceRegistration>

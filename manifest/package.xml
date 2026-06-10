@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Deploybar metadata for Firmaradar Salesforce-connectoren (External Services).
+     API-nøkkelen ligger ALDRI her — den settes på External Credential-principalen
+     i mål-org-en etter deploy (PLAN §2). External Service-registreringen importeres
+     fra firmaradar.swagger.json (Setup → External Services) hvis metadata-deploy av
+     ExternalServiceRegistration ikke tas av org-en. -->
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Firmaradar</members>
+        <name>NamedCredential</name>
+    </types>
+    <types>
+        <members>FirmaradarService</members>
+        <name>ExternalServiceRegistration</name>
+    </types>
+    <version>60.0</version>
+</Package>
