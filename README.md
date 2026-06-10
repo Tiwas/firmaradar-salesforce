@@ -11,13 +11,16 @@ OpenAPI-definisjon, og hver API-operasjon blir en *invocable action* du bruker i
 Builder. Du velger selv hvilke operasjoner og felt du bruker — det finnes ingen
 Firmaradar-side feltvelger.
 
-> **BETA — bygget for fremtidig kundebehov.** Vi har laget connectoren slik at kunder
-> som ønsker Firmaradar-intelligens i Salesforce kan komme i gang i dag. Vi har foreløpig
-> ikke en egen Salesforce-org til å teste den ende-til-ende, så vi tar **veldig gjerne
-> imot tilbakemeldinger** fra deg som tar den i bruk — fortell oss hva som funker og hva
-> som kan bli bedre ([åpne et issue](https://github.com/Tiwas/firmaradar-salesforce/issues)
-> eller kontakt oss via [firmaradar.no](https://firmaradar.no)), så samarbeider vi om
-> best mulig funksjon.
+> **BETA — et proof of concept fra vår side.** Firmaradar er en
+> **API/MCP-first-plattform**, og kjernen vår er å produsere berikede norske
+> selskaps-data. Denne connectoren beviser at systemet vårt faktisk leverer dataene
+> Salesforce trenger — men den **faktiske implementeringen** (hvilke felt, Flows og
+> arbeidsflyter som passer din virksomhet) må valideres per kunde og per extension.
+>
+> Derfor søker vi **pilotkunder**. Har du et reelt behov for å berike Salesforce-dataene
+> dine, jobber vi veldig gjerne tett med deg for å levere akkurat det du trenger —
+> [åpne et issue](https://github.com/Tiwas/firmaradar-salesforce/issues) eller kontakt
+> oss via [firmaradar.no](https://firmaradar.no).
 >
 > Gratis å installere; krever et Firmaradar-API-abonnement (din egen API-nøkkel).
 
